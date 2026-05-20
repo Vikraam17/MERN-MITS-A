@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Service from "./pages/Service";
 import Parent from "./component/Parent";
 import Counter from "./component/Counter";
+import Signup from "./auth/Signup";
 const App = ()=>{
   return(
     // Fragment Tag
@@ -17,7 +18,8 @@ const App = ()=>{
       <Contact/>
       <Service/> */}
       {/* <Parent/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <Signup/>
     </>
   )
 }
