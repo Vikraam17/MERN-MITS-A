@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.Navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    background-color: chocolate;
+}
+.List{
+    padding: 10px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+}
+.List:hover{
+    background-color: white;
+    color: Black;
+    cursor: pointer;
+}
